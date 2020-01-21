@@ -13,7 +13,7 @@ class CreateTableMateri extends Migration
      */
     public function up()
     {
-        Schema::table('materi', function (Blueprint $table) {
+        Schema::create('materi', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('namaMateri', 100);
             $table->string('semester', 15);

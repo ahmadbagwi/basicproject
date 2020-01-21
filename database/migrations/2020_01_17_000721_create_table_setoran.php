@@ -13,14 +13,21 @@ class CreateTableSetoran extends Migration
      */
     public function up()
     {
-        Schema::table('setoran', function (Blueprint $table) {
+        Schema::create('setoran', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->bigIncrements('anak_id');
-            $table->bigIncrements('materi_id');
+            $table->unsignedBigInteger('anak_id');
+            $table->unsignedBigInteger('materi_id');
             $table->string('fileAudio', 200);
             $table->string('status', 15)->default('belum diperiksa');
             $table->timestamps();
             $table->softDeletes();
+        });
+
+        Schema::table('setoran', function (Blueprint $table) {
+            $table->index('anak_id');
+            $table->index('materi_id');
+            $table->foreign('anak_id')->references('id')->on('anak')->onUpdate('cascade')->onDelete('cascade');
+            $table->foreign('materi_id')->references('id')->on('materi')->onUpdate('cascade')->onDelete('cascade');
         });
     }
 

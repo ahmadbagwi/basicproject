@@ -13,13 +13,19 @@ class CreateTableStatus extends Migration
      */
     public function up()
     {
-        Schema::table('status', function (Blueprint $table) {
+        Schema::create('status', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->bigIncrements('anak_id');
+            $table->unsignedBigInteger('anak_id');
             $table->string('kemajuan', 15);
             $table->string('status', 30);
+            $table->string('semester', 30);
             $table->timestamps();
             $table->softDeletes();
+        });
+
+        Schema::table('status', function (Blueprint $table) {
+            $table->index('anak_id');
+            $table->foreign('anak_id')->references('id')->on('anak')->onUpdate('cascade')->onDelete('cascade');
         });
     }
 

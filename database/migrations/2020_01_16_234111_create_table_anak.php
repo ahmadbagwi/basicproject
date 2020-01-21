@@ -13,9 +13,9 @@ class CreateTableAnak extends Migration
      */
     public function up()
     {
-        Schema::table('anak', function (Blueprint $table) {
+        Schema::create('anak', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->bigIncrements('users_id');
+            $table->unsignedBigInteger('user_id');
             $table->string('namaLengkap', 100);
             $table->date('tanggalLahir');
             $table->enum('jenisKelamin', ['ikhwan', 'akhwat']);
@@ -24,6 +24,11 @@ class CreateTableAnak extends Migration
             $table->rememberToken();
             $table->timestamps();
             $table->softDeletes();
+        });
+
+        Schema::table('anak', function (Blueprint $table) {
+            $table->index('user_id');
+            $table->foreign('user_id')->references('id')->on('users')->onUpdate('cascade')->onDelete('cascade');
         });
     }
 
