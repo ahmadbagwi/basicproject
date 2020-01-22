@@ -624,15 +624,15 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 /* About Us Section
 --------------------------------*/
-#about-us img {
+#alur img {
   max-width: 100%;
 }
 
-#about-us .about-content {
+#alur .about-content {
   padding-top: 60px;
 }
 
-#about-us .about-content h2 {
+#alur .about-content h2 {
   color: #252525;
   font-family: "roboto";
   font-size: 39px;
@@ -642,17 +642,17 @@ body.mobile-nav-active #mobile-nav-toggle i {
   text-transform: capitalize;
 }
 
-#about-us .about-content span {
+#alur .about-content span {
   font-weight: 700;
   padding-right: 10px;
   text-transform: uppercase;
 }
 
-#about-us .about-content ul li {
+#alur .about-content ul li {
   line-height: 36px;
 }
 
-#about-us .about-content ul li .fa {
+#alur .about-content ul li .fa {
   padding-right: 20px;
 }
 
