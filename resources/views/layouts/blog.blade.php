@@ -70,12 +70,7 @@
       <h1>Pondok Nabawi</h1>
       <h2>Anak Shalih Hafal Hadits</h2>
       <img src="img/hero-img.png" alt="Hero Imgs">
-      <a href="#get-started" class="btn-get-started scrollto">Get Started</a>
-      <div class="btns">
-        <a href="#"><i class="fa fa-apple fa-3x"></i> App Store</a>
-        <a href="#"><i class="fa fa-play fa-3x"></i> Google Play</a>
-        <a href="#"><i class="fa fa-windows fa-3x"></i> windows</a>
-      </div>
+      <a href="#get-started" class="btn-get-started scrollto">Daftar/Masuk</a>
     </div>
   </section><!-- #hero -->
 
@@ -87,21 +82,21 @@
     <div class="container">
       <div class="section-title text-center">
 
-        <h2>simple systeme fordiscount </h2>
-        <p class="separator">Integer cursus bibendum augue ac cursus .</p>
+        <h2>Manfaatkan teknologi untuk belajar ilmu Syar'i</h2>
+        <p class="separator">Dalam rangka menumbuhkan kecintaan Anak-anak terhadap Hadist Nabi Shalallahu Alaihi Wasallam, kami Pondok Nabawi membuka program "Anak Shalih Hafal Hadist", yaitu program pendampingan orang tua mengajarkan hadist-hadist pendek melalui gedget selama satu semester melalui grup WA yang terintregasi dengan akun pribadi di website Pondok Nabawi, yang mana kami berharap selain anak-anak kita mampu menghafal hadist-hadist pendek, mereka juga bisa menggunakan gedget untuk hal-hal kebaikan dengan pendampingan orang tua.</p>
 
       </div>
     </div>
 
-    <div class="container">
+    <!-- <div class="container">
       <div class="row">
 
         <div class="col-md-6 col-lg-4">
           <div class="feature-block">
 
             <img src="img/svg/cloud.svg" alt="img" class="img-fluid">
-            <h4>introducing whatsapp</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+            <h4>Akun terintegrasi</h4>
+            <p>Orang tua dapat membuat akun dan memonitoring perkambangan anak pada website ini</p>
             <a href="#">read more</a>
 
           </div>
@@ -111,8 +106,8 @@
           <div class="feature-block">
 
             <img src="img/svg/planet.svg" alt="img" class="img-fluid">
-            <h4>user friendly interface</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+            <h4>Materi audio dan visual</h4>
+            <p>Orang tua dan anak bisa sama-sama mempelajari materi yang disampaikan</p>
             <a href="#">read more</a>
 
           </div>
@@ -122,16 +117,100 @@
           <div class="feature-block">
 
             <img src="img/svg/asteroid.svg" alt="img" class="img-fluid">
-            <h4>build the app everyone love</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+            <h4>Komunikasi dua arah oleh pembina</h4>
+            <p>Insya Allah dibina oleh Ustadz Riza Afrizal, LC Alumnus Fakultas Hadits UIM</p>
             <a href="#">read more</a>
 
           </div>
         </div>
 
       </div>
+    </div> -->
+
+  <!-- </section> -->
+
+  <!--==========================
+    Features Section
+  ============================-->
+
+  <!-- <section id="features" class="padd-section text-center wow fadeInUp"> -->
+
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>Anak Shalih Hafal Hadist (ASAH)</h2>
+        <p class="separator">Keunggulan Program Anak Shalih Hafal Hadist (ASAH)</p>
+      </div>
     </div>
 
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-6 col-lg-3">
+          <div class="feature-block">
+            <img src="img/svg/paint-palette.svg" alt="img" class="img-fluid">
+            <h4>Akun Monitoring</h4>
+            <p>Setiap orang tua dapat membuat akun pribadi, akun tersebut dapat digunakan untuk setor hafalan dan monitoring</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="feature-block">
+            <img src="img/svg/vector.svg" alt="img" class="img-fluid">
+            <h4>Materi Hadits Pendek</h4>
+            <p>Setiap pekan akan di berikan materi hadist pendek maksimal 2 hadist berupa flayer dan audio melalui WAG</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="feature-block">
+            <img src="img/svg/design-tool.svg" alt="img" class="img-fluid">
+            <h4>Rekaman Audio</h4>
+            <p>Setoran hafalan berupa rekaman audio dikirim melalui akun website, pembina akan memberikan penilaian dan catatan pada tiap setoran</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="feature-block">
+            <img src="img/svg/asteroid.svg" alt="img" class="img-fluid">
+            <h4>Murajaah</h4>
+            <p>Program Murajaah (mengulang yang sudah dihafal) setiap satu bulan</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="feature-block">
+            <img src="img/svg/asteroid.svg" alt="img" class="img-fluid">
+            <h4>Sertifikat</h4>
+            <p>Mendapatkan sertifikat jika dapat memenuhi target materi hafalan selama satu semester</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="feature-block">
+            <img src="img/svg/cloud-computing.svg" alt="img" class="img-fluid">
+            <h4>Pendampingan Orang Tua</h4>
+            <p>Kesuksesan anak dalam mengikuti program ASAH adalah adanya pendampingan orang tua</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="feature-block">
+            <img src="img/svg/pixel.svg" alt="img" class="img-fluid">
+            <h4>Ujian Akhir</h4>
+            <p>Ujian akhir akan dilaksanakan melalui vCall sesuai waktu yang disepakati</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="feature-block">
+            <img src="img/svg/code.svg" alt="img" class="img-fluid">
+            <h4>Pembina</h4>
+            <p>Diasuh dan dibimbing oleh pembina Pondok Nabawi Ustadz Riza Afrizal, LC (Alumni Universitas Islam Madinah jurusan Hadits)</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
   </section>
 
   <!--==========================
@@ -148,16 +227,19 @@
         <div class="col-md-7 col-lg-5">
           <div class="about-content">
 
-            <h2><span>eStartup</span>UI Design Mobile </h2>
-            <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+            <h2><span>Alur Pembelajaran</span></h2>
+            <p>Alur pembelajaran online dengan beberapa tahapan
             </p>
 
             <ul class="list-unstyled">
-              <li><i class="fa fa-angle-right"></i>Creative Design</li>
-              <li><i class="fa fa-angle-right"></i>Retina Ready</li>
-              <li><i class="fa fa-angle-right"></i>Easy to Use</li>
-              <li><i class="fa fa-angle-right"></i>Unlimited Features</li>
-              <li><i class="fa fa-angle-right"></i>Unlimited Features</li>
+              <li><i class="fa fa-angle-right"></i>Pembuatan akun</li>
+              <li><i class="fa fa-angle-right"></i>Pendaftaran data anak</li>
+              <li><i class="fa fa-angle-right"></i>Seleksi dan verifikasi</li>
+              <li><i class="fa fa-angle-right"></i>Peserta yang lolos akan diundang bergabung WAG</li>
+              <li><i class="fa fa-angle-right"></i>Materi disampaikan melalui WAG</li>
+              <li><i class="fa fa-angle-right"></i>Orang tua merekam setoran hadits dan mengunggah melalui website</li>
+              <li><i class="fa fa-angle-right"></i>Pembina akan mendengarkan setoran hadits dan memberikan penilaian</li>
+              <li><i class="fa fa-angle-right"></i>Ujian vCall akan diaksanakan pada akhir semester</li>
             </ul>
 
           </div>
@@ -172,83 +254,45 @@
   ============================-->
 
   <section id="features" class="padd-section text-center wow fadeInUp">
-
     <div class="container">
       <div class="section-title text-center">
-        <h2>Amazing Features.</h2>
-        <p class="separator">Integer cursus bibendum augue ac cursus .</p>
+        <h2>Kriteria</h2>
+        <p class="separator">Kriteria dan Persyaratan</p>
       </div>
     </div>
-
     <div class="container">
       <div class="row">
 
-        <div class="col-md-6 col-lg-3">
+        <div class="col-md-6 col-lg-4">
           <div class="feature-block">
-            <img src="img/svg/paint-palette.svg" alt="img" class="img-fluid">
-            <h4>creative design</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+
+            <img src="img/svg/cloud.svg" alt="img" class="img-fluid">
+            <h4>Maksimal 2 anak</h4>
+            <p>Satu akun orang tua maksimal mendaftarkan dua orang anak</p>
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-3">
+        <div class="col-md-6 col-lg-4">
           <div class="feature-block">
-            <img src="img/svg/vector.svg" alt="img" class="img-fluid">
-            <h4>Retina Ready</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+
+            <img src="img/svg/planet.svg" alt="img" class="img-fluid">
+            <h4>Usia</h4>
+            <p>Batasan usia yang dapat mengikuti adalah 4-11 tahun</p>
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-3">
+        <div class="col-md-6 col-lg-4">
           <div class="feature-block">
-            <img src="img/svg/design-tool.svg" alt="img" class="img-fluid">
-            <h4>easy to use</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-          </div>
-        </div>
 
-        <div class="col-md-6 col-lg-3">
-          <div class="feature-block">
             <img src="img/svg/asteroid.svg" alt="img" class="img-fluid">
-            <h4>Free Updates</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-3">
-          <div class="feature-block">
-            <img src="img/svg/asteroid.svg" alt="img" class="img-fluid">
-            <h4>Free Updates</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-3">
-          <div class="feature-block">
-            <img src="img/svg/cloud-computing.svg" alt="img" class="img-fluid">
-            <h4>App store support</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-3">
-          <div class="feature-block">
-            <img src="img/svg/pixel.svg" alt="img" class="img-fluid">
-            <h4>Perfect Pixel</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-3">
-          <div class="feature-block">
-            <img src="img/svg/code.svg" alt="img" class="img-fluid">
-            <h4>clean codes</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+            <h4>Kuota</h4>
+            <p>Terbatas 50 Ikhwan 50 Akhwat, prioritas pendaftar awal</p>
           </div>
         </div>
 
       </div>
     </div>
+
   </section>
 
   <!--==========================
@@ -291,87 +335,6 @@
 
         <div class="row">
           <a href="#" class="js-modal-btn play-btn" data-video-id="s22ViV7tBKE"></a>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!--==========================
-    Team Section
-  ============================-->
-  <section id="team" class="padd-section text-center wow fadeInUp">
-
-    <div class="container">
-      <div class="section-title text-center">
-
-        <h2>Team Member</h2>
-        <p class="separator">Integer cursus bibendum augue ac cursus .</p>
-
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="row">
-
-        <div class="col-md-6 col-md-4 col-lg-3">
-          <div class="team-block bottom">
-            <img src="img/team/1.jpg" class="img-responsive" alt="img">
-            <div class="team-content">
-              <ul class="list-unstyled">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-              </ul>
-              <span>manager</span>
-              <h4>Kimberly Tran</h4>
-            </div>
-          </div>
-        </div>
-
-       <div class="col-md-6 col-md-4 col-lg-3">
-          <div class="team-block bottom">
-            <img src="img/team/2.jpg" class="img-responsive" alt="img">
-            <div class="team-content">
-              <ul class="list-unstyled">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-              </ul>
-              <span>manager</span>
-              <h4>Kimberly Tran</h4>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-md-4 col-lg-3">
-          <div class="team-block bottom">
-            <img src="img/team/3.jpg" class="img-responsive" alt="img">
-            <div class="team-content">
-              <ul class="list-unstyled">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-              </ul>
-              <span>manager</span>
-              <h4>Kimberly Tran</h4>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-md-4 col-lg-3">
-          <div class="team-block bottom">
-            <img src="img/team/4.jpg" class="img-responsive" alt="img">
-            <div class="team-content">
-              <ul class="list-unstyled">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-              </ul>
-              <span>manager</span>
-              <h4>Kimberly Tran</h4>
-            </div>
-          </div>
         </div>
 
       </div>
@@ -455,92 +418,35 @@
     <div class="container">
       <div class="section-title text-center">
 
-        <h2>Meet With Price</h2>
-        <p class="separator">Integer cursus bibendum augue ac cursus .</p>
+        <h2>Infak</h2>
+        <p class="separator">Program ini sepenuhnya tidak berbayar, jika anda ingin memberikan infak silahkan mengirimkan melalui</p>
 
       </div>
     </div>
 
     <div class="container">
-      <div class="row">
+      <div class="row d-flex justify-content-center">
 
-        <div class="col-md-6 col-lg-3">
+        <div class="col-md-6 col-lg-4">
           <div class="block-pricing">
             <div class="table">
-              <h4>basic</h4>
-              <h2>$29</h2>
+              <h4>Rekening Infak Pondok Nabawi</h4>
+              <h2>BNI Syariah</h2>
               <ul class="list-unstyled">
-                <li><b>4 GB</b> Ram</li>
-                <li><b>7/24</b> Tech Support</li>
-                <li><b>40 GB</b> SSD Cloud Storage</li>
-                <li>Monthly Backups</li>
-                <li>Palo Protection</li>
+                <li>No. Rekening ...</li>
+                <li>Atas Nama</li>
+                <li>Kode Bank</li>
+                <li>Mohon ikhlas menambahkan akhir 99 pada nominal transfer</li>
+                <li>Contoh 50.099, 150.099</li>
               </ul>
               <div class="table_btn">
-                <a href="#" class="btn"><i class="fa fa-shopping-cart"></i> Buy Now</a>
+                <a href="#" class="btn"><i class="fa fa-shopping-cart"></i> Konfirmasi</a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-3">
-          <div class="block-pricing">
-            <div class="table">
-              <h4>PERSONAL</h4>
-              <h2>$29</h2>
-              <ul class="list-unstyled">
-                <li><b>4 GB</b> Ram</li>
-                <li><b>7/24</b> Tech Support</li>
-                <li><b>40 GB</b> SSD Cloud Storage</li>
-                <li>Monthly Backups</li>
-                <li>Palo Protection</li>
-              </ul>
-              <div class="table_btn">
-                <a href="#" class="btn"><i class="fa fa-shopping-cart"></i> Buy Now</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-3">
-          <div class="block-pricing">
-            <div class="table">
-              <h4>BUSINESS</h4>
-              <h2>$29</h2>
-              <ul class="list-unstyled">
-                <li><b>4 GB</b> Ram</li>
-                <li><b>7/24</b> Tech Support</li>
-                <li><b>40 GB</b> SSD Cloud Storage</li>
-                <li>Monthly Backups</li>
-                <li>Palo Protection</li>
-              </ul>
-              <div class="table_btn">
-                <a href="#" class="btn"><i class="fa fa-shopping-cart"></i> Buy Now</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-3">
-          <div class="block-pricing">
-            <div class="table">
-              <h4>profeesional</h4>
-              <h2>$29</h2>
-              <ul class="list-unstyled">
-                <li><b>4 GB</b> Ram</li>
-                <li><b>7/24</b> Tech Support</li>
-                <li><b>40 GB</b> SSD Cloud Storage</li>
-                <li>Monthly Backups</li>
-                <li>Palo Protection</li>
-              </ul>
-              <div class="table_btn">
-                <a href="#" class="btn"><i class="fa fa-shopping-cart"></i> Buy Now</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+        
   </section>
 
   <!--==========================
@@ -782,15 +688,15 @@
 
     <div class="copyrights">
       <div class="container">
-        <p>&copy; Copyrights eStartup. All rights reserved.</p>
+        <p>Pondok Nabawi</p>
         <div class="credits">
           <!--
             All the links in the footer should remain intact.
             You can delete the links only if you purchased the pro version.
             Licensing information: https://bootstrapmade.com/license/
             Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=eStartup
-          -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
         </div>
       </div>
     </div>
