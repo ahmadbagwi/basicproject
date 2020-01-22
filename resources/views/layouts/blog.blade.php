@@ -50,13 +50,13 @@
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="#hero">Beranda</a></li>
-          <li><a href="#about-us">Tentang</a></li>
-          <li><a href="#features">Visi Misi</a></li>
-          <li><a href="#screenshots">Program</a></li>
-          <li><a href="#team">Pendaftaran</a></li>
-          <li><a href="#pricing">Kontak</a></li>
-          <li><a href="#blog">Blog</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#tentang">Tentang</a></li>
+          <li><a href="#alur">Alur</a></li>
+          <li><a href="#kriteria">Kriteria</a></li>
+          <li><a href="#galeri">Galeri</a></li>
+          <li><a href="#infak">Infak</a></li>
+          <li><a href="#artikel">Artikel</a></li>
+          <li><a href="#kontak">Kontak</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -75,9 +75,9 @@
   </section><!-- #hero -->
 
   <!--==========================
-    Get Started Section
+    Tentang
   ============================-->
-  <section id="get-started" class="padd-section text-center wow fadeInUp">
+  <section id="tentang" class="padd-section text-center wow fadeInUp">
 
     <div class="container">
       <div class="section-title text-center">
@@ -87,53 +87,6 @@
 
       </div>
     </div>
-
-    <!-- <div class="container">
-      <div class="row">
-
-        <div class="col-md-6 col-lg-4">
-          <div class="feature-block">
-
-            <img src="img/svg/cloud.svg" alt="img" class="img-fluid">
-            <h4>Akun terintegrasi</h4>
-            <p>Orang tua dapat membuat akun dan memonitoring perkambangan anak pada website ini</p>
-            <a href="#">read more</a>
-
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-4">
-          <div class="feature-block">
-
-            <img src="img/svg/planet.svg" alt="img" class="img-fluid">
-            <h4>Materi audio dan visual</h4>
-            <p>Orang tua dan anak bisa sama-sama mempelajari materi yang disampaikan</p>
-            <a href="#">read more</a>
-
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-4">
-          <div class="feature-block">
-
-            <img src="img/svg/asteroid.svg" alt="img" class="img-fluid">
-            <h4>Komunikasi dua arah oleh pembina</h4>
-            <p>Insya Allah dibina oleh Ustadz Riza Afrizal, LC Alumnus Fakultas Hadits UIM</p>
-            <a href="#">read more</a>
-
-          </div>
-        </div>
-
-      </div>
-    </div> -->
-
-  <!-- </section> -->
-
-  <!--==========================
-    Features Section
-  ============================-->
-
-  <!-- <section id="features" class="padd-section text-center wow fadeInUp"> -->
 
     <div class="container">
       <div class="section-title text-center">
@@ -214,9 +167,10 @@
   </section>
 
   <!--==========================
-    About Us Section
+    Alur
   ============================-->
-  <section id="about-us" class="about-us padd-section wow fadeInUp">
+  
+  <section id="alur" class="about-us padd-section wow fadeInUp">
     <div class="container">
       <div class="row justify-content-center">
 
@@ -250,10 +204,10 @@
   </section>
 
   <!--==========================
-    Features Section
+    Kriteria
   ============================-->
 
-  <section id="features" class="padd-section text-center wow fadeInUp">
+  <section id="kriteria" class="padd-section text-center wow fadeInUp">
     <div class="container">
       <div class="section-title text-center">
         <h2>Kriteria</h2>
@@ -296,14 +250,14 @@
   </section>
 
   <!--==========================
-    Screenshots Section
+    Galeri
   ============================-->
-  <section id="screenshots" class="padd-section text-center wow fadeInUp">
+  <section id="galeri" class="padd-section text-center wow fadeInUp">
 
     <div class="container">
       <div class="section-title text-center">
-        <h2>App Gallery</h2>
-        <p class="separator">Integer cursus bibendum augue ac cursus .</p>
+        <h2>Galeri</h2>
+        <p class="separator">Tapilan halaman akun monitoring</p>
       </div>
     </div>
 
@@ -326,7 +280,7 @@
   </section>
 
   <!--==========================
-    Video Section
+    Video
   ============================-->
 
   <section id="video" class="text-center wow fadeInUp">
@@ -343,10 +297,10 @@
 
 
   <!--==========================
-    Testimonials Section
+    Testimoni
   ============================-->
 
-  <section id="testimonials" class="padd-section text-center wow fadeInUp">
+  <section id="testimoni" class="padd-section text-center wow fadeInUp">
     <div class="container">
       <div class="row justify-content-center">
 
@@ -411,9 +365,9 @@
   </section>
 
   <!--==========================
-    Pricing Table Section
+    Infak
   ============================-->
-  <section id="pricing" class="padd-section text-center wow fadeInUp">
+  <section id="infak" class="padd-section text-center wow fadeInUp">
 
     <div class="container">
       <div class="section-title text-center">
@@ -450,9 +404,9 @@
   </section>
 
   <!--==========================
-    Blog Section
+    Artikel
   ============================-->
-  <section id="blog" class="padd-section wow fadeInUp">
+  <section id="artikel" class="padd-section wow fadeInUp">
 
     <div class="container">
       <div class="section-title text-center">
@@ -468,7 +422,7 @@
 
         <div class="col-md-6 col-lg-4">
           <div class="block-blog text-left">
-            <a href="#"><img src="img/blog/blog-image-1.jpg" alt="img"></a>
+            <a href="#"><img src="img/blog/blog-image-3.jpg" alt="img"></a>
             <div class="content-blog">
               <h4><a href="#">whats isthe difference between good and bat typography</a></h4>
               <span>05, juin 2017</span>
@@ -535,9 +489,9 @@
   </section>
 
   <!--==========================
-    Contact Section
+    Kontak
   ============================-->
-  <section id="contact" class="padd-section wow fadeInUp">
+  <section id="kontak" class="padd-section wow fadeInUp">
 
     <div class="container">
       <div class="section-title text-center">
