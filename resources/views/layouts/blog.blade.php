@@ -70,7 +70,7 @@
       <h1>Pondok Nabawi</h1>
       <h2>Anak Shalih Hafal Hadits</h2>
       <img src="img/hero-img.png" alt="Hero Imgs">
-      <a href="#get-started" class="btn-get-started scrollto">Daftar/Masuk</a>
+      <a href="#get-started" class="btn-get-started scrollto" data-toggle="modal" data-target="#masuk-daftar">Daftar/Masuk</a>
     </div>
   </section><!-- #hero -->
 
@@ -169,7 +169,7 @@
   <!--==========================
     Alur
   ============================-->
-  
+
   <section id="alur" class="about-us padd-section wow fadeInUp">
     <div class="container">
       <div class="row justify-content-center">
@@ -411,8 +411,7 @@
     <div class="container">
       <div class="section-title text-center">
 
-        <h2>Latest posts</h2>
-        <p class="separator">Integer cursus bibendum augue ac cursus .</p>
+        <h2>Artikel</h2>
 
       </div>
     </div>
@@ -458,45 +457,14 @@
   </section>
 
   <!--==========================
-    Newsletter Section
-  ============================-->
-  <section id="newsletter" class="newsletter text-center wow fadeInUp">
-    <div class="overlay padd-section">
-      <div class="container">
-
-        <div class="row justify-content-center">
-          <div class="col-md-9 col-lg-6">
-            <form class="form-inline" method="POST" action="#">
-
-              <input type="email" class="form-control " placeholder="Email Adress" name="email">
-              <button type="submit" class="btn btn-default"><i class="fa fa-location-arrow"></i>Subscribe</button>
-
-            </form>
-
-          </div>
-        </div>
-
-          <ul class="list-unstyled">
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-          </ul>
-
-
-      </div>
-    </div>
-  </section>
-
-  <!--==========================
     Kontak
   ============================-->
   <section id="kontak" class="padd-section wow fadeInUp">
 
     <div class="container">
       <div class="section-title text-center">
-        <h2>Contact</h2>
-        <p class="separator">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+        <h2>Pertanyaan atau saran</h2>
+        <p class="separator">Kirimkan pertanyaan atau saran anda mengenai Pondok Nabawi melalui form dibawah ini</p>
       </div>
     </div>
 
@@ -571,68 +539,21 @@
         <div class="col-md-12 col-lg-4">
           <div class="footer-logo">
 
-            <a class="navbar-brand" href="#">eStartup</a>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the.</p>
+            <a class="navbar-brand" href="#">Pondok Nabawi </a>
+            <p>didirikan dengan semangat dakwah kepada generasi penerus islam khususnya anak-anak</p>
 
           </div>
         </div>
 
-        <div class="col-sm-6 col-md-3 col-lg-2">
+        <div class="col-sm-6 col-md-3 col-lg-4">
           <div class="list-menu">
 
-            <h4>Abou Us</h4>
-
-            <ul class="list-unstyled">
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Features item</a></li>
-              <li><a href="#">Live streaming</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-            </ul>
-
-          </div>
-        </div>
-
-        <div class="col-sm-6 col-md-3 col-lg-2">
-          <div class="list-menu">
-
-            <h4>Abou Us</h4>
-
-            <ul class="list-unstyled">
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Features item</a></li>
-              <li><a href="#">Live streaming</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-            </ul>
-
-          </div>
-        </div>
-
-        <div class="col-sm-6 col-md-3 col-lg-2">
-          <div class="list-menu">
-
-            <h4>Support</h4>
-
-            <ul class="list-unstyled">
-              <li><a href="#">faq</a></li>
-              <li><a href="#">Editor help</a></li>
-              <li><a href="#">Contact us</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-            </ul>
-
-          </div>
-        </div>
-
-        <div class="col-sm-6 col-md-3 col-lg-2">
-          <div class="list-menu">
-
-            <h4>Abou Us</h4>
-
-            <ul class="list-unstyled">
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Features item</a></li>
-              <li><a href="#">Live streaming</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-            </ul>
+            <!-- <ul class="list-unstyled">
+              <li><a href="#">Taman Sari Persada Cluster Rose No</a></li>
+              <li><a href="#">0812xxx</a></li>
+              <li><a href="#">admin@pondoknabawi.id</a></li>
+              <li><a href="#">Skype </a></li>
+            </ul> -->
 
           </div>
         </div>
@@ -642,7 +563,7 @@
 
     <div class="copyrights">
       <div class="container">
-        <p>Pondok Nabawi</p>
+        <p>Pondok Nabawi | 2020</p>
         <div class="credits">
           <!--
             All the links in the footer should remain intact.
@@ -657,9 +578,75 @@
 
   </footer>
 
-
-
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- Modal -->
+  <div class="modal fade" id="masuk-daftar" tabindex="-1" role="dialog" aria-labelledby="masuk-daftar" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="masuk-daftar">Masuk atau Daftar Akun</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="masuk-tab" data-toggle="tab" href="#masuk" role="tab" aria-controls="masuk" aria-selected="true">Masuk</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="daftar-tab" data-toggle="tab" href="#daftar" role="tab" aria-controls="daftar" aria-selected="false">Daftar</a>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="masuk" role="tabpanel" aria-labelledby="masuk-tab">
+              <form>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control" id="email" placeholder="Harus email aktif">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>    
+
+            </div>
+            <div class="tab-pane fade" id="daftar" role="tabpanel" aria-labelledby="daftar-tab">
+              <form>
+                <div class="form-group">
+                  <label for="namaLengkap">Nama Lengkap</label>
+                  <input type="text" class="form-control" id="namaLengkap" placeholder="Nama Lengkap">
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control" id="email" placeholder="Harus email aktif">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="password" placeholder="Password">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Alamat</label>
+                  <input type="text" class="form-control" id="alamat" placeholder="">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">No.Hp</label>
+                  <input type="text" class="form-control" id="phone" placeholder="">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal">Tutup</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- JavaScript Libraries -->
   <script src="{{ asset('lib/jquery/jquery.min.js') }}"></script>
