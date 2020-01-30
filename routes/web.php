@@ -19,3 +19,4 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/beranda', 'HomeController@beranda')->name('beranda');
+Route::get('/dashboard', 'Dashboard@index')->name('dashboard');
