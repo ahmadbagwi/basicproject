@@ -19,4 +19,14 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/beranda', 'HomeController@beranda')->name('beranda');
-Route::get('/dashboard', 'Dashboard@index')->name('dashboard');
+
+Route::group(['middleware' => ['web', 'auth', 'roles']],function(){
+	Route::get('/dashboard', 'Dashboard@index')->name('dashboard');
+	Route::group(['roles'=>'root'],function(){
+		Route::resource('site', 'SiteController');
+	});
+ 
+	Route::group(['roles'=>'admin'],function(){
+		Route::resource('admin', 'UserController');
+	});
+});
