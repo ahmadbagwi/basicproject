@@ -1,10 +1,10 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="id">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Dashboard One | Notika - Notika Admin Template</title>
+    <title>{{ $title }}</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- favicon
@@ -363,6 +363,7 @@
                                         <li><a href="widgets.html">Widgets</a></li>
                                     </ul>
                                 </li>
+                                @if(Auth::user()->role->role == 'admin')
                                 <li><a data-toggle="collapse" data-target="#demoevent" href="#">Email</a>
                                     <ul id="demoevent" class="collapse dropdown-header-top">
                                         <li><a href="inbox.html">Inbox</a></li>
@@ -370,6 +371,7 @@
                                         <li><a href="compose-email.html">Compose Email</a></li>
                                     </ul>
                                 </li>
+                                @endif
                                 <li><a data-toggle="collapse" data-target="#democrou" href="#">Interface</a>
                                     <ul id="democrou" class="collapse dropdown-header-top">
                                         <li><a href="animations.html">Animations</a></li>
@@ -457,9 +459,11 @@
                     <ul class="nav nav-tabs notika-menu-wrap menu-it-icon-pro">
                         <li class="active"><a data-toggle="tab" href="#Home"><i class="notika-icon notika-house"></i> Home</a>
                         </li>
-                        <li><a data-toggle="tab" href="#mailbox"><i class="notika-icon notika-mail"></i> Email</a>
+                        @if(Auth::user()->role->role != 'normal')
+                        <li><a data-toggle="tab" href="#mailbox"><i class="notika-icon notika-mail"></i> Admin</a>
                         </li>
-                        <li><a data-toggle="tab" href="#Interface"><i class="notika-icon notika-edit"></i> Interface</a>
+                        @endif
+                        <li><a data-toggle="tab" href="#Interface"><i class="notika-icon notika-edit"></i> Normal</a>
                         </li>
                         <li><a data-toggle="tab" href="#Charts"><i class="notika-icon notika-bar-chart"></i> Charts</a>
                         </li>
@@ -489,29 +493,31 @@
                                 </li>
                             </ul>
                         </div>
+                        @if(Auth::user()->role->role == 'admin')
                         <div id="mailbox" class="tab-pane notika-tab-menu-bg animated flipInX">
                             <ul class="notika-main-menu-dropdown">
-                                <li><a href="inbox.html">Inbox</a>
+                                <li><a href="inbox.html">Inbox Admin</a>
                                 </li>
-                                <li><a href="view-email.html">View Email</a>
+                                <li><a href="view-email.html">View Email Admin</a>
                                 </li>
-                                <li><a href="compose-email.html">Compose Email</a>
+                                <li><a href="compose-email.html">Compose Email Admin</a>
                                 </li>
                             </ul>
                         </div>
+                        @endif
                         <div id="Interface" class="tab-pane notika-tab-menu-bg animated flipInX">
                             <ul class="notika-main-menu-dropdown">
-                                <li><a href="animations.html">Animations</a>
+                                <li><a href="animations.html">Animations Normal</a>
                                 </li>
-                                <li><a href="google-map.html">Google Map</a>
+                                <li><a href="google-map.html">Google Map Normal</a>
                                 </li>
-                                <li><a href="data-map.html">Data Maps</a>
+                                <li><a href="data-map.html">Data Maps Normal</a>
                                 </li>
-                                <li><a href="code-editor.html">Code Editor</a>
+                                <li><a href="code-editor.html">Code Editor Normal</a>
                                 </li>
-                                <li><a href="image-cropper.html">Images Cropper</a>
+                                <li><a href="image-cropper.html">Images Cropper Normal</a>
                                 </li>
-                                <li><a href="wizard.html">Wizard</a>
+                                <li><a href="wizard.html">Wizard Normal</a>
                                 </li>
                             </ul>
                         </div>
