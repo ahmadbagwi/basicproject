@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class Dashboard extends Controller
 {
@@ -11,6 +12,12 @@ class Dashboard extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+    public function __construct()
+    {   
+        $this->middleware('auth'/*,['except' => ['']]*/);
+    }
+
     public function index()
     {
         $data = array('title' => 'Dashboard', );
