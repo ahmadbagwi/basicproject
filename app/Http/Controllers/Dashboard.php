@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use AktifitasHelp;
 
 class Dashboard extends Controller
 {
@@ -19,7 +20,8 @@ class Dashboard extends Controller
     }
 
     public function index()
-    {
+    {   
+        AktifitasHelp::simpanAktifitas($aktifitas = "login ke dashboard");
         $data = array('title' => 'Dashboard', );
         return view('dashboard/index', $data);
     }
