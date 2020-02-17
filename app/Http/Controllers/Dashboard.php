@@ -15,13 +15,19 @@ class Dashboard extends Controller
 
     public function __construct()
     {   
-        $this->middleware('auth'/*,['except' => ['']]*/);
+        $this->middleware('auth', ['except' => ['asli']]);
     }
 
     public function index()
     {
         $data = array('title' => 'Dashboard', );
-        return view('dashboard/dashboard', $data);
+        return view('dashboard/index', $data);
+    }
+
+    public function asli()
+    {
+        $data = array('title' => 'Dashboard Asli', );
+        return view('dashboard/asli', $data);
     }
 
     /**
