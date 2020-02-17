@@ -10,10 +10,10 @@ class Aktifitas {
     public static function simpanAktifitas($aktifitas) {
         $aktifitasBaru = new AktifitasModel;
         $aktifitasBaru->user_id = Auth::user()->id;
-        $aktifitasBaru->aktifitasTerakhir = $aktifitas;
+        $aktifitasBaru->aktifitas = $aktifitas;
 
         if ($aktifitasBaru->save()) {
-        	Log::info('aktifitas '.$aktifitasBaru->user_id. ' adalah '. $aktifitasBaru->aktifitasTerakhir);
+        	Log::info('aktifitas '.$aktifitasBaru->user_id. ' adalah '. $aktifitasBaru->aktifitas);
         }
     }
 }

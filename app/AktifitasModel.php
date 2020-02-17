@@ -7,8 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 class AktifitasModel extends Model
 {
     protected $table = "aktifitas";
-    protected $fillable = ['user_id', 'loginTerakhir', 'aktifitasTerakhir'];
-    public $timestamps = false;
+    protected $fillable = ['user_id', 'aktifitas'];
+    public $timestamps = true;
 
     // public function pasar()
     // {
