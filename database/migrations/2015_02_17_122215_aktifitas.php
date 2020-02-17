@@ -15,7 +15,6 @@ class Aktifitas extends Migration
     {
         Schema::create('aktifitas', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->date('tanggal');
             $table->unsignedBigInteger('user_id');
             $table->string('aktifitas', 200);
             $table->timestamps();
